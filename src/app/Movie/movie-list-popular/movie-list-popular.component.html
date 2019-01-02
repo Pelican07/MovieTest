@@ -1,0 +1,9 @@
+<div>
+  <ul>
+    <li *ngFor="let movie of movies.results">
+      <h4>{{movie.title}}</h4>
+      <h6>{{movie.overview}}</h6>
+      <img width= "150" src="http://image.tmdb.org/t/p/original{{movie.poster_path}}">
+    </li>
+  </ul>
+</div>
